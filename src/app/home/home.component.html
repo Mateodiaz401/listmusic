@@ -1,0 +1,8 @@
+<app-header></app-header>
+
+<div class="grid">
+  <app-card [routerLink]="['/','post',detalleVideo?.id]" [dataEnTrante]="detalleVideo"
+    *ngFor="let detalleVideo of listadeVideos"></app-card>
+</div>
+
+<app-sidebar></app-sidebar>

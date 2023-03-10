@@ -1,0 +1,6 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  gap: 1rem;
+  padding: 1rem;
+}
