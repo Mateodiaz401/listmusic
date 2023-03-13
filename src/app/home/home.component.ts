@@ -9,6 +9,7 @@ import { RestService } from '../rest.service';
 export class HomeComponent implements OnInit {
   public listadeVideos: any = [];
   constructor(private RestService: RestService) { }
+
   ngOnInit(): void { this.cargarData(); }
 
   public cargarData() {

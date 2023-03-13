@@ -3,7 +3,7 @@
 <div class="wrapper">
   <div class="block-one">
     <div>
-      <img [src]="respuesta?.image" alt="">
+      <img appImagenRota [urlCustom]="'../../assets/images/image-not-found.jpg'" [src]="respuesta?.image" alt="">
     </div>
     <div class="wrapper-info">
       <div class="tittle">{{respuesta?.title}}</div>

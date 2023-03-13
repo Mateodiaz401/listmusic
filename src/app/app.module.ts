@@ -16,6 +16,9 @@ import { MostrarMilesPipe } from './mostrar-miles.pipe';
 import { LoginComponent } from './login/login.component';
 import { CookieService } from 'ngx-cookie-service';
 import { UploadPageComponent } from './upload-page/upload-page.component';
+import { ImagenRotaDirective } from './imagen-rota.directive';
+import { MyFocusDirective } from './my-focus.directive';
+import { OnlySessionDirective } from './only-session.directive';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { UploadPageComponent } from './upload-page/upload-page.component';
     ListViewsComponent,
     MostrarMilesPipe,
     LoginComponent,
-    UploadPageComponent
+    UploadPageComponent,
+    ImagenRotaDirective,
+    MyFocusDirective,
+    OnlySessionDirective
   ],
   imports: [
     BrowserModule,

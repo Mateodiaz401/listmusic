@@ -6,9 +6,10 @@
   </div>
   <div class="menu-header">
     <ul class="menu">
-      <li>Mis videos</li>
-      <li>link</li>
-      <li>Iniciar sesión</li>
+      <li *appOnlySession="true" [routerLink]="['/','list-videos']">Mis videos</li>
+      <li>Más vistos</li>
+      <li *appOnlySession="true" [routerLink]="['/','upload']">Subir video</li>
+      <li *appOnlySession="false" [routerLink]="['/','login']">Iniciar sesión</li>
     </ul>
   </div>
 
